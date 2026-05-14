@@ -1,0 +1,11 @@
+.env
+.venv/
+venv/
+uploads/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.vscode/
+.DS_Store
+Thumbs.db
