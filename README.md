@@ -97,33 +97,31 @@ Return result to frontend
 
 
 ## Folder Structure
+
+```text
 ai-cv-analyzer/
 │
 ├── app/
 │   ├── main.py
-│   │
 │   ├── config/
 │   │   └── settings.py
-│   │
 │   ├── database/
 │   │   └── mysql_connection.py
-│   │
 │   ├── models/
 │   │   └── schemas.py
-│   │
 │   ├── repositories/
 │   │   └── cv_repository.py
-│   │
 │   └── services/
 │       ├── cv_analyzer_service.py
 │       ├── gemini_service.py
 │       └── pdf_service.py
 │
 ├── uploads/
-├── .env
+├── .env.example
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+```
 
 ## Installation and Setup
 1. Clone the Repository
